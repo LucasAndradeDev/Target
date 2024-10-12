@@ -29,3 +29,4 @@ Este repositório contém as soluções para os desafios propostos pela Target S
 ## Como Ter Acesso ao Projeto?
 
 - Basta clicar no link abaixo; o deploy está pronto! 🌐
+- https://desafio-target-theta.vercel.app/
