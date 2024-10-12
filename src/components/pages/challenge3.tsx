@@ -35,7 +35,7 @@ const Challenge3 = () => {
       <div className="flex flex-col items-center justify-center p-12 bg-white rounded-lg shadow-lg max-w-6xl w-full">
         <h2 className="text-4xl font-bold text-blue-600 mb-4">Desafio 3: Faturamento Diário</h2>
         <p className="text-lg text-gray-700 mb-4 text-center">
-          Esse desafio tem o objetivo de analisar o faturamento diário de distribuidora ficticia..
+          Esse desafio tem o objetivo de analisar o faturamento diário de uma distribuidora fictícia.
           Para isso, utilizei como base de dados o arquivo faturamento.json.
         </p>
 
@@ -51,7 +51,7 @@ const Challenge3 = () => {
           ))}
         </ul>
 
-        {menorFaturamento !== null && (
+        {menorFaturamento !== null && maiorFaturamento !== null && mediaFaturamento !== null && (
           <div className="mt-4 text-center">
             <h3 className="text-xl font-semibold">Resultados da Análise</h3>
             <p className="text-lg">Menor valor de faturamento: <span className="font-bold">R$ {menorFaturamento.toFixed(2)}</span></p>
