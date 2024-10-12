@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+# Desafios Target Sistemas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém as soluções para os desafios propostos pela Target Sistemas para a vaga de desenvolvedor. O objetivo é demonstrar as habilidades técnicas e a abordagem lógica para resolver problemas.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black): Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Router** ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white): Biblioteca para gerenciar navegação e rotas no aplicativo.
+- **Tailwind CSS** ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white): Framework CSS para estilização e design responsivo.
+- **JavaScript/TypeScript** ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white): Linguagens de programação utilizadas para o desenvolvimento da lógica do projeto.
 
-## Expanding the ESLint configuration
+## Descrição dos Desafios
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Desafio 1: Soma dos Números** ➕
+   - Implementação de uma função que calcula a soma de um conjunto de números.
 
-- Configure the top-level `parserOptions` property like this:
+2. **Desafio 2: Sequência de Fibonacci** 🐇
+   - Criação de uma função que gera a sequência de Fibonacci até um número específico.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+3. **Desafio 3: Faturamento Diário** 💰
+   - Cálculo do faturamento diário com base em dados fornecidos.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+4. **Desafio 4: Percentual de Faturamento por Estado** 📊
+   - Cálculo do percentual de faturamento de cada estado em relação ao total mensal.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+5. **Desafio 5: Inversão de uma String** 🔄
+   - Inversão de uma string fornecida pelo usuário, utilizando lógica manual.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Como Ter Acesso ao Projeto?
+
+- Basta clicar no link abaixo; o deploy está pronto! 🌐
